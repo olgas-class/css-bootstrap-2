@@ -1,0 +1,40 @@
+:root {
+  --bs-primary: lightseagreen;
+}
+
+.ms_btn-primary {
+  background-color: lightseagreen;
+  color: white;
+}
+
+.ms_btn {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+.btn {
+  border-radius: 0.75rem;
+}
+
+.ms_card-dark {
+  background-color: rgb(38, 38, 38);
+  color: white;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.ms_form-control {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+}
+
+.ms_form-control:focus {
+    box-shadow: none;
+}
